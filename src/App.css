@@ -1,0 +1,116 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.Container{
+    background-color: rgb(47, 47, 47);
+    width: 750px;
+    margin:0 auto;
+    border-radius: 12px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+        margin-top: 40px;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+}
+header h1{
+    color:rgb(237, 179, 31)
+}
+form{
+  padding: 30px;
+}
+form p{ 
+  display: flex;
+  flex-direction: column;
+}
+form p input{
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #909a9a;
+  color: #1e2021;
+  font-weight: bold;
+}
+form p input:focus{
+  
+  outline: none;
+}
+
+form p:nth-child(3) {
+  width: 100%;
+}
+form p:nth-child(3){
+  padding-top: 5px;
+}
+form p:nth-child(3) button{
+  width: inherit;
+  margin: 0px;
+  font-size:18px ;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  background-color:rgb(232, 176, 8);
+  border-radius: 5px;
+ 
+}
+h2,p{
+    color: white;
+   
+}
+
+button{
+    margin:0px 20px 20px 25px;
+}
+ul {
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+  
+  li {
+    background-color: #475357;
+   
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  }
+  li article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    
+    
+  }
+  li h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #b1c1c3;
+  }
+  
+  li p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #dfd9be;
+  }
+  
+  li button {
+    font: inherit;
+    padding: 0 0.5rem;
+    background: transparent;
+    border: none;
+    color: #909a9a;
+    cursor: pointer;
+  }
+  
